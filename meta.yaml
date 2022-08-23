@@ -1,0 +1,4 @@
+name: odigos
+CX_PRODUCT: platform
+deployable_type: application
+code_language: go
