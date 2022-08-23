@@ -4,7 +4,7 @@
 
 Odigos is an observability control plane.
 
-Start sending traces, metrics and logs to your favourite observability service (such as Datadog, Honeycomb, Grafana, etc) in a few clicks.
+Start sending traces, metrics and logs to your favourite observability service (such as Coralogix, Datadog, Honeycomb, Grafana, etc) in a few clicks.
 
 - 🧑‍💻 **No code changes** - Odigos detects the programming language of your applications and apply automatic instrumentation accordingly.
 - 📖 **Open Technologies** - Odigos observabiltiy pipelines are based on the best open source observability technologies such as [OpenTelemetry](https://opentelemetry.io) and [eBPF](https://ebpf.io).
@@ -18,6 +18,7 @@ Start sending traces, metrics and logs to your favourite observability service (
 
 |               | Traces | Metrics | Logs |
 |---------------|--------|---------|------|
+| Coralogix     | ✅      | ✅       |      |
 | New Relic     | ✅      | ✅       | ✅    |
 | Datadog       | ✅      | ✅       |      |
 | Grafana Cloud | ✅      | ✅       | ✅    |

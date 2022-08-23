@@ -1,3 +1,4 @@
+import { Coralogix } from "@/vendors/coralogix";
 import { Honeycomb } from "@/vendors/honeycomb";
 import { Datadog } from "@/vendors/datadog";
 import { Grafana } from "@/vendors/grafana";
@@ -43,6 +44,7 @@ export interface ObservabilityVendor {
 }
 
 const Vendors = [
+  new Coralogix(),
   new Honeycomb(),
   new Datadog(),
   new Grafana(),
